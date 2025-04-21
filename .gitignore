@@ -1,35 +1,21 @@
 # Byte-compiled / cache files
 __pycache__/
 *.py[cod]
-*.so
-*.egg
-*.egg-info/
-dist/
-build/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
-# Environments
+# Environment and packages
 .env
-.venv/
-env/
 venv/
+.venv/
 
-# Model and vector files (optional if already tracked)
-*.pkl
-*.h5
-
-# Data files
-*.csv
-*.txt
-*.xlsx
-
-# VS Code / IDE config files
+# OS and IDE
+.DS_Store
 .vscode/
 *.code-workspace
-.idea/
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Data / models
+*.pkl
+*.csv
+*.txt
